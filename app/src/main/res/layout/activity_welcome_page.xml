@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fbyb"
+    android:orientation="vertical"
+    tools:context="com.example.sangeeth.braintestapp.WelcomePage">
+
+
+    <LinearLayout
+        android:id="@+id/uLay"
+        android:layout_width="match_parent"
+        android:layout_height="219dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="70dp"
+            android:text="WELCOME"
+            android:textColor="@color/colorAccent"
+            android:textSize="60dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Brain Training Application"
+            android:textAlignment="center"
+            android:textColor="@color/colorte"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:id="@+id/dLay"
+        android:layout_marginTop="135dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/dot3">
+
+        <Button
+            android:id="@+id/buttonsub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/buttonstyle"
+            android:text="GO"
+            android:textSize="40dp" />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
